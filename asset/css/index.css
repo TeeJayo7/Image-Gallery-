@@ -1,0 +1,116 @@
+body{
+    color: #22046b;
+}
+.pagewrapper{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    display: flex;
+}
+.imagewrapper{
+    width: 40%;
+    height: 100vh;
+    background-image: url('../images/semen-borisov-gCq65qN53RI-unsplash.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.form{
+    width: 60%;
+    height: 100vh;
+    background-color: white;
+}
+.logo h2{
+    width: 20%;
+    font-size: 25px;
+    margin-left: 30px;
+    margin-top: 30px;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#production{
+    color: white;
+}
+h2 span{
+    color: #e7c82f;
+}
+div h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+div h3{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    word-spacing: 4px;
+    color: #e14e42;
+}
+.text{
+    position: absolute;
+    top: 200px;
+    left: 30px;
+}
+div h2{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+}
+#form{
+    width: 100%; 
+}
+#form div input{
+    box-sizing: border-box;
+    color: #22046b;
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+}
+::placeholder{
+    color: #22046b;
+}
+div #form{
+    margin: auto;
+}
+input[type="text"]{
+    width: 50%;
+    height: 40px;
+    outline: none;
+    border: 2px solid #22046b;
+}
+input[type="email"]{
+    width: 50%;
+    height: 40px;
+    outline: none;
+    border: 2px solid #22046b;
+}
+input[type="password"]{
+    width: 50%;
+    height: 40px;
+    outline: none;
+    border: 2px solid #22046b;
+}
+input[type="submit"]{
+    width: 30%;
+    height: 30px;
+    outline: none;
+    border: 2px solid #22046b;
+}
+input[type="submit"]:hover{
+    cursor: pointer;
+}
+.input_f{
+    margin: auto;
+}
+a.login{
+    background-color: #22046b;
+    border: 2px solid #22046b;
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    text-decoration: none;
+}
+#style{
+    color:  #e7c82f;   
+}
+    
